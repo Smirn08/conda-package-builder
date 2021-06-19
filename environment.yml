@@ -1,0 +1,13 @@
+name: pyspark
+channels:
+  - conda-forge
+dependencies:
+  - lightgbm~=2.3.1
+  - nomkl
+  - numpy~=1.18.2
+  - pyarrow
+  - pandas~=1.0.3
+  - python==3.7.7
+  - pip
+  - pip:
+      - pyspark==2.4.8
